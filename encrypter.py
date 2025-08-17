@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 # ---------- LINKS ----------
 def open_links():
     # Open https link
-    webbrowser.open("https://example.com")   # 👈 replace with your site
+    webbrowser.open("https://winstonalt.github.io/encrypter/thankyou.html")   # 👈 replace with your site
 
 # ---------- ENCRYPTION ----------
 def generate_key():
@@ -65,3 +65,4 @@ if __name__ == "__main__":
         decrypt_file(fname)
     else:
         print("Invalid choice")
+
